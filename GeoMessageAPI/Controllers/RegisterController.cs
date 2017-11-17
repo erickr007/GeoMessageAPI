@@ -47,6 +47,8 @@ namespace GeoMessageAPI.Controllers
 
         #region Actions
 
+        // POST api/register
+        // This creates a registration id
         public async Task<string> Post(string handle = null)
         {
             string newRegistrationId = null;
